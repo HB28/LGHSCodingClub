@@ -14,11 +14,6 @@ class Solution {
                 return mid;
             }
         }
-        for(int i = 1; i < nums.length - 1; i ++){
-            if(target <= nums[i+1] && target >= nums[i - 1]){
-                return i;
-            }
-        }
         return -1;
     }
 }
