@@ -14,6 +14,6 @@ class Solution {
                 return mid;
             }
         }
-        return left;
+        return l;
     }
 }
