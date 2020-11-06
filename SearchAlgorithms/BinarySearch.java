@@ -1,5 +1,5 @@
 public class BinarySearch {
-    public int searchInsert(int[] nums, int target) {
+    public static int searchInsert(int[] nums, int target) {
         int l = 0;
         int r = nums.length - 1;
         while(r >= l){
@@ -15,5 +15,12 @@ public class BinarySearch {
             }
         }
         return l;
+    }
+    public static void main(String[]args)
+    {
+        //test
+        int[] arr = {1,2,3,4,5,6,7,8,9,10};
+        int target = 4;
+        System.out.println(searchInsert(arr,target));
     }
 }
