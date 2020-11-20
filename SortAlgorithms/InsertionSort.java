@@ -1,4 +1,5 @@
-public class InsertionSort {
+public class InsertionSort
+ {
     public static void main(String [] args)
     {
         int arr[] = {78, 32, 48, 1024, 69, 12, 5, 420, 2048, 5, -7};//Example array
