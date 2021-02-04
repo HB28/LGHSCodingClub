@@ -1,3 +1,4 @@
+# -1 is returned if recursiveNum recieves a negative integer for the parameter
 def recursiveNum(start):
     if(start == 0):
         return 1
