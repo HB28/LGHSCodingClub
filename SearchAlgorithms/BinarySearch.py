@@ -11,7 +11,7 @@ def searchInsert(nums, target):
             return mid
     return l
 
-#test
+#tests
 arr = [1,2,3,4,5,6,7,8,9,10]
 target = 4
 print(str(searchInsert(arr,target)))
